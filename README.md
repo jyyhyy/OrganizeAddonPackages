@@ -25,13 +25,12 @@ AddonPackages\clothing\shoes
 한번만 분류해서 넣어놓으면 버전업할때 AddonPackages에 받아놓은 패키지들을 스크립트 돌려서 이동시킵니다
 
 제작자 별로 분류 해놓는분들도 되긴하는데 기존에 없던 새로운 패키지들은 알아서 이동해주진 않습니다  
-버전이 여러개라면 구버전은 old로 이동만 됩니다  
-AddonPackages\creator 폴더가 있는데  
-그 폴더안에 구버전 패키지가 없다면  
+버전이 여러개라면 구버전들은 old로 이동되고 AddonPackags에 최신버전만 남습니다  
+AddonPackages\creator 폴더가 있는데 그 폴더안에 구버전 패키지가 없다면  
 AddonPackages\creator.new_package.1.var가 있어도 creator폴더로 옮겨주진 않는다는거죠  
-옮겨질 폴더에 구버전 파일이 있어야 합니다
+구버전이 있던 폴더로 최신버전이 이동합니다
 
-정리가 끝나면 AddonPackages\old 에 구버전 패키지들이 제작자 명으로 폴더가 생성되서 분류가 됩니다  
+정리가 끝나면 AddonPackages\old 폴더에 구버전 패키지들이 제작자 명으로 폴더가 생성되서 분류가 됩니다  
 AddonPackages\old\creator\creator.package1.1.var  
 old에 들어있는 폴더를 AddonPackages에서 다른곳으로 빼놓으시면 초기 로딩 속도 개선에 도움이 됩니다  
 하위버전 기능을 모두 포함한 상위 버전이라고 생각하면 지워도 되구요  
