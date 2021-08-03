@@ -56,4 +56,5 @@ AddonPackages에 몽땅 넣고 쓰시는분이나
 AddonPackages\제작자로 폴더 구분해서 쓰시거나  
 AddonPackages\카테고리로 구분해서 쓰시거나 할때 분류를 도와주는 정도 입니다
 
-심볼릭 링크 같은걸로 순환링크를 만들어 놓은 곳에서는 사용하지 마세요
+AddonPackages\old 폴더와 AddonPackages\default 폴더는 검색하지 않습니다  
+심볼릭 링크, 정션 같은걸로 순환링크를 만들어 놓은 곳에서는 사용하지 마세요  
